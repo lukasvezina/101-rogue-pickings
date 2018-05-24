@@ -1,0 +1,52 @@
+/***Base Style***/
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+  font-family: 'WisdomScript';
+  src: url('../font/WisdomScript.otf') format('opentype');
+}
+/***Grid***/
+.full-width{
+  width: 1200px;
+}
+
+.half-width{
+  float: left;
+  width: 600px;
+}
+
+.third-width{
+  float: left;
+  width: 400px;
+}
+/***Header Section***/
+h1{
+  text-transform: uppercase;
+}
+
+header span{
+  color: #77a466
+}
+
+.navbar li{
+  display: inline;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+.navbar a{
+  color: #77a466;
+  text-decoration: none;
+}
+/***Main Section***/
+p{
+
+}
+/***Footer Section***/
+em{
+  font-family: 'WisdomScript';
+  font-size: 16px;
+  color: #77a446;
+}
