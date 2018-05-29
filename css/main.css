@@ -1,6 +1,7 @@
-/***Base Style***/
+/***BASE STYLES***/
 body{
   font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 @font-face {
@@ -13,9 +14,18 @@ body{
     max-width: 1200px;
 }
 
-/***Grid***/
+h1,
+h2,
+h3,
+h4{
+  color: black;
+  text-transform: uppercase;
+}
+
+/***GRID***/
 .full-width{
   width: 1200px;
+  margin: auto;
 }
 
 .half-width{
@@ -25,14 +35,16 @@ body{
 
 .third-width{
   float: left;
-  margin: 20px;
   width: 400px;
 }
-/***Header Section***/
+
+/***HEADER***/
+header{
+    height: 110px;
+}
+
 h1{
-  color: black;
   font-size: 30px;
-  text-transform: uppercase;
   padding: 15px 0px;
 }
 
@@ -40,46 +52,103 @@ header span{
   color: #77a466
 }
 
-.navbar{
-    padding: 25px 0px;
+header nav{
+  float: right;
+  padding: 46px 0;
 }
 
-.navbar li{
+header nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li{
   display: inline;
   font-size: 13px;
-  font-weight: bold;
-  text-align: right;
+  font-weight: 700;
+  padding: 0 10px;
   text-transform: uppercase;
-  word-spacing: 20px;
 }
 
-.navbar a{
+header nav ul li a{
   color: #77a466;
-  text-align: right;
   text-decoration: none;
 }
 
+/***TOP SECTION***/
 .hero-image{
   border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
 }
-/***Main Section***/
+
 h2{
   color: #77a466;
+  font-size: 18px;
+}
+
+.top-section p{
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 25px;
+  padding: 30px 0px;
+}
+
+/****BOTTOM SECTION****/
+.bottom-section{
+    border-top: 1px solid #eee;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    width: 1200px;
+}
+
+h4{
+  font-size: 12px;
   text-transform: uppercase;
 }
 
-#about p{
-  font-weight: 18px;
-  padding: 30px 0px;
-  border-bottom: 1px solid lightgrey;
+.first-section, .second-section, .third-section{
+  font-size: 15px;
+  height: 209px;
+  width: 399px;
 }
-/***Footer Section***/
-footer{
-  clear: both;
+/***FIRST SECTION - MENU ***/
+.first-section ul{
+  padding: 0;
+}
+.first-section ul li{
+  color: #77a466;
+  list-style: none;
+  padding: 10px 0;
 }
 
-em{
-  font-family: 'WisdomScript';
-  font-size: 16px;
+/***SECOND SECTION - REVIEWS***/
+.second-section{
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  padding: 10px 30px;
+}
+
+/***THIRD SECTION - LOCATIONS***/
+
+
+/***FOOTER SECTION***/
+footer{
+    border-top: 1px solid #eee;
+    clear: both;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h3{
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+footer span{
   color: #77a446;
+  font-family: 'WisdomScript';
+  font-size: 14px;
+  text-transform: lowercase;
 }
