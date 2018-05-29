@@ -108,11 +108,14 @@ h4{
 }
 
 .first-section, .second-section, .third-section{
+  float: left;
   font-size: 15px;
   height: 209px;
-  width: 399px;
 }
 /***FIRST SECTION - MENU ***/
+.first-section{
+  width: 399px;
+}
 .first-section ul{
   padding: 0;
 }
@@ -127,10 +130,13 @@ h4{
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   padding: 10px 30px;
+  width: 369px;
 }
 
 /***THIRD SECTION - LOCATIONS***/
-
+.third-section{
+  width: 399px;
+}
 
 /***FOOTER SECTION***/
 footer{
