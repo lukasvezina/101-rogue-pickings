@@ -116,6 +116,7 @@ h4{
 }
 /***FIRST SECTION - MENU ***/
 .first-section{
+  padding: 10px 0;
   width: 399px;
 }
 .first-section ul{
@@ -132,12 +133,13 @@ h4{
   border-left: 1px solid #eee;
   border-right: 1px solid #eee;
   padding: 10px 30px;
-  width: 369px;
+  width: 319px;
 }
 
 /***THIRD SECTION - LOCATIONS***/
 .third-section{
-  width: 399px;
+  padding: 10px 0px 0px 30px;
+  width: 369px;
 }
 
 /***FOOTER SECTION***/
