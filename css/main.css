@@ -8,6 +8,11 @@ body{
   src: url('../font/WisdomScript.otf') format('opentype');
 }
 /***Grid***/
+
+.container{
+  margin: 20px 60px;
+}
+
 .full-width{
   width: 1200px;
 }
@@ -23,6 +28,7 @@ body{
 }
 /***Header Section***/
 h1{
+  font-size: 30px;
   text-transform: uppercase;
 }
 
@@ -39,6 +45,8 @@ header span{
 .navbar a{
   color: #77a466;
   text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
 }
 /***Main Section***/
 p{
