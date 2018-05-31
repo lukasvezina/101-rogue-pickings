@@ -48,6 +48,11 @@ h1{
   padding: 15px 0px;
 }
 
+a{
+  color: black;
+  text-decoration: none;
+}
+
 header span{
   color: #77a466
 }
@@ -147,7 +152,7 @@ footer{
     border-top: 1px solid #eee;
     clear: both;
     height: 50px;
-    margin: 0 auto;
+    margin: 50px auto;
     text-align: center;
 }
 
@@ -161,4 +166,44 @@ footer span{
   font-family: 'WisdomScript';
   font-size: 14px;
   text-transform: lowercase;
+}
+/****ABOUT PAGE*****/
+
+.our-story{
+  border: none;
+}
+.about-picture img{
+  border: 1px solid #77a466;
+  position: center;
+  margin: 10px 300px;
+  max-width: 600px;
+}
+
+/***LOCATIONS PAGE***/
+.locations{
+  list-style: none;
+}
+
+.locations h3{
+  padding-top: 15px;
+}
+ul.locations{
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.locations li{
+  font-size: 14px;
+}
+
+/***GALLERY PAGE***/
+main.gallery{
+  text-align: center;
+  padding: 200px;
+}
+
+/****REVIEWS PAGE****/
+.reviews h3{
+  padding-top: 50px;
 }
